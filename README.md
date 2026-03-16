@@ -1,20 +1,16 @@
 # Beverage Sales Data Pipeline and Analysis (SAS)
 
-This project builds a data pipeline in SAS to ingest, clean, and analyze
-multi-region beverage sales data.
+This project implements a **data pipeline and analytical workflow in SAS** based on the *Beverage Company Case Study*.  
+The objective of the project is to demonstrate data ingestion, cleaning, transformation, and statistical analysis across multiple beverage product datasets.
 
-## Features
+The work is divided into two phases:
 
-- Import fixed-width, CSV, TXT, and Access database files
-- Standardize product and packaging information
-- Merge county population data with beverage sales
-- Compute sales per 1,000 population
-- Generate statistical summaries and visualizations
+- **Phase 1 – Data Handling:** Build and clean datasets from multiple raw sources and construct unified analysis datasets.  
+- **Phase 2 – Result Generation:** Perform statistical summaries, reporting, and visualization using SAS procedures.
 
-## Tools
+---
 
-- SAS
-- PROC MEANS
-- PROC REPORT
-- PROC SGPLOT
-- PROC SGPANEL
+# Project Structure
+/SAS
+  data_pipeline.sas
+  sales_analysis.sas
